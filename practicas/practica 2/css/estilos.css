@@ -1,3 +1,8 @@
+
+
+[hidden] {
+  display: none;
+}
 html,button,imput,
 select, texarea {
 	color: #222;
@@ -6,6 +11,18 @@ select, texarea {
  	font-size: lem;
  	line-height: 1.4px;
  	font: 16px Helvetica 
+ }
+ h1{
+ 	font-family: 'Slabo 27px', serif;
+ 	text-shadow:5px 5px 5px #000000
+ }
+ h2{
+font-family: 'Sansita', sans-serif;
+ 	text-shadow:-38px -50px 16px #000000;
+ }
+ h3{
+ 	font-family: 'Lato', sans-serif;
+ 	text-shadow:-58px -46px 27px #000000;
  }
  hr{
  	display: block;
@@ -75,6 +92,7 @@ select, texarea {
  }
  @media only screen and (min-width:480px){
  	h1{
+
  		color:red;
  	}
  	nav a{
@@ -110,3 +128,9 @@ select, texarea {
  		width: 57%;
  	}
  }/* 760*/
+ @media only screen and (min-width: 1100px){
+ 	.content{
+ 		width: 1026px;
+ 		margin: 0 auto;
+ 	}
+ }/* 1100 */
